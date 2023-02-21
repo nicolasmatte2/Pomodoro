@@ -6,6 +6,7 @@ import { ButtonsContainer } from "./Pomodoro.styles";
 import play from "../assets/play.png";
 import pause from "../assets/pause.png";
 import restart from "../assets/restart.png";
+
 export const Pomodoro = () => {
   var fotos = [play, pause];
   const [image, setImage] = useState(play);
