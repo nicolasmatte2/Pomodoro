@@ -15,7 +15,7 @@ export const PomodoroContainer = styled.div`
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border: 10px solid #fc454a;
+    border: 10px solid rgb(255, 50, 78);
     border-radius: 80%;
     width: 50vh;
     height: 50vh;
@@ -48,7 +48,7 @@ export const BreakButton = styled.button`
   padding: 2rem;
   margin-top: 2rem;
   background-color: transparent;
-  border: 2px solid #fc454a;
+  border: 2px solid rgb(255, 50, 78);
   border-radius: 8rem;
   &:hover {
     transform: scale(1.1);
