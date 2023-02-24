@@ -9,6 +9,7 @@ export const PomodoroContainer = styled.div`
   flex-direction: column;
   width: 100vw;
   height: 100vh;
+  gap: 4rem;
 
   .timer {
     display: flex;
@@ -54,6 +55,9 @@ export const BreakButton = styled.button`
     transform: scale(1.1);
   }
   &:active {
+    transform: scale(0.9);
+  }
+  &:focus {
     transform: scale(0.9);
   }
 `;
